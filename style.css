@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+body {
+    background: aquamarine;
+}
+
+.keyboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+kbd {
+    display: inline-block;
+    border: 1px solid gray;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.white-keys kbd {
+    background-color: #FFF;
+    height: 96px;
+    width: 96px;
+    margin-left: -10px;
+    padding-top: 328px;
+}
+
+.black-keys kbd {
+    color: #FFF;
+    background-color: #000;
+    height: 72px;
+    width: 72px;
+    margin-left: 14px;
+    padding-top: 192px;
+    position: relative;
+    top: -80px;
+    left: -10px;
+}
+
+.black-keys kbd:nth-child(2) {
+    margin-right: 90px;
+}
